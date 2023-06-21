@@ -20,14 +20,14 @@
                             <% visitado.forEach((row)=> { %>
                                 <article>
                                     <div class="articulo">
-                                        <img src="/images/img-cafetera-moulinex.jpg" alt="prod/cafetera">
+                                        <img src="/images/<%= row.image  %>" alt="<%= row.image  %>">
                                         <div class="info-article">
 
                                             <i class="fas fa-truck"></i>
 
-                                            <p class="precio">$6.770</p>
-                                            <p class="descuento">40% off</p>
-                                            <h4 class="desc-prod">cafetera moulinex</h4>
+                                            <p class="precio">$ <%=row.price  %></p>
+                                            <p class="descuento"><%=row.discount  %>% off</p>
+                                            <h4 class="desc-prod"><%=row.name  %></h4>
 
                                         </div>
                                     </div>
@@ -49,7 +49,25 @@
                     <section>
                         <h3 class="h3-centrado">ofertas</h3>
                         <div class="productos">
+                            <% oferta.forEach((row)=> { %>
+                                <article>
+                                    <div class="articulo">
+                                        <img src="/images/<%= row.image  %>" alt="<%= row.image  %>">
+                                        <div class="info-article">
 
+                                            <i class="fas fa-truck"></i>
+
+                                            <p class="precio">$ <%=row.price  %></p>
+                                            <p class="descuento"><%=row.discount  %>% off</p>
+                                            <h4 class="desc-prod"><%=row.name  %></h4>
+
+                                        </div>
+                                    </div>
+
+
+
+                                </article>
+                                <% }) %>
                         </div>
 
 

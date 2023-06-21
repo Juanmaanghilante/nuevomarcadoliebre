@@ -1,0 +1,16 @@
+[
+    {
+        "id":1,
+        "name":"pedrito",
+        "username":"nombreusuario",
+        "fechaDeNacimiento":"16/10/2000",
+        "email":"curne_juan@hotmail.com",
+        "domicilio":"calle falsa 123",
+        "tipoDePerfil":"vendedor",
+        "intereses":"on",
+        "image":"default-image.png",
+        "password":"1234"
+
+
+    }
+]

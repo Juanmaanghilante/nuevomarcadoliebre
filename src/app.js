@@ -11,8 +11,14 @@ const mainRoutes= require('./routes/mainRoutes')
 const userRoutes= require('./routes/userRoutes')
 
 app.use(express.static('public'))
+
+app.use(express.urlencoded({extended:false}));
+app.use(express.json())
+
 app.set("views",path.join(__dirname,"../views"))
 app.set ("view engine","ejs")
+
+
 
 
 // levanto el servidor
