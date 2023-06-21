@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<%-include('./partials/head')  %>
+
+<body>
+    <%-include('./partials/header')  %>
+    <main class="mainclass">
+
+        <form class="forms registro" action="/registro" method="POST">
+            <div>
+                <label for="usuario">usuario</label>
+                <input class="Texto" type="text" name="usuario" placeholder="usuario" id="usuario">
+            </div>
+            <div>
+
+                <label for="password">password</label>
+                <input class="Texto" type="password" name="password" id="password">
+
+            </div>
+
+
+
+
+
+
+            <div class="botones">
+                <button class="botones-form boton-enviar" type="submit">Enviar</button>
+
+            </div>
+
+
+        </form>
+
+
+    </main>
+    <%-include('./partials/footer')  %>
+
+</body>
+
+</html>

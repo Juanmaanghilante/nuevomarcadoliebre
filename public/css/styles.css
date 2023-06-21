@@ -1,0 +1,686 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    font-family: "Roboto", sans-serif;
+    font-size: 12px;
+  
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+   
+   /* header */
+}
+header{
+    background-color: #EAC926;
+    width: 50%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+
+.burger-menu-juanma  i {
+    display: none;
+    color: white;
+    background-color: #0022AA;
+    padding: 10px;
+    font-size: 2rem;
+display: none;
+}
+    
+.login{
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+    .header-top{
+  
+ width: 50%;
+}
+
+.input{
+    justify-content: space-between;
+}
+.logo{
+width:90%;
+padding:15px 0 15px 5%; 
+}
+
+  header .buscador {
+    width:50%;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+} 
+
+ .buscador1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+}
+input[type="text"]{
+width: 300px;
+height: 25px;
+margin-right: 0.5px;
+}
+
+input[type="password"]{
+    width: 300px;
+    height: 25px;
+    margin-right: 0.5px;
+    }
+
+button[type="submit"]{
+    width: 20px;
+    height: 25px;
+    margin-left: 0.5px;
+}
+
+
+
+
+header p{
+text-align: center;
+}
+header nav{
+display:none;
+}
+header nav ul li a {
+     font-size: 14px;
+    text-decoration: none;
+    color: black;
+
+
+}
+
+header nav ul li  {
+    list-style-type: none;
+    display: block;
+ 
+}
+
+
+
+
+header nav ul {
+ width: 45%;
+ margin: 0;
+padding: 0;
+display: flex;
+justify-content: space-around;
+min-width: 30%;
+}
+
+
+header{
+    width: 100vw;
+}
+
+
+
+
+header .compra-cuotas{
+    width: 100%;
+    font-size:12px ;
+    font-weight: 700;
+    text-align: center;
+    color: #666;
+}
+
+
+header{
+    width:100vw;
+}
+
+
+
+                                                    /* header */
+
+.banner-img{   width: 100vw;
+    }
+
+
+                        /* MAIN */
+  main{
+    text-align: center;
+    width:90vw ;
+    margin: 0 auto;
+}
+
+main section article{
+    margin-bottom: 10px;
+  
+
+    box-shadow: 0px 0px 10px rgba(100, 100, 100, .4);
+}
+main section article img{
+    margin-bottom: 10px;
+}
+
+
+
+       
+   
+   .main-nav-bar ul li {
+       display:block;
+       margin-bottom: 10px;
+       text-align: center;
+   }
+   
+   .main-nav-bar a {
+       text-decoration:none;
+       color: #222222;
+       display: inline-block;
+       padding: 5px 0 ;
+       font-size: 17px;
+     
+       
+   
+       
+   }
+   
+   
+   .main-nav-bar{
+       width: 100%;
+   }
+
+
+
+
+
+
+
+
+
+   article{
+    text-align: center;
+}
+
+
+
+
+ 
+.info-article{
+    border-top:solid 1px #a7a0a0;
+    padding:15px;
+    display:flex;
+    position:relative;
+    flex-wrap:wrap;
+    width:100%;
+
+
+}
+
+
+
+
+   
+
+
+
+
+
+.left-nav-bar
+ .right-nav-bar {
+    display: inline-block;
+  width: 50%;
+}
+
+/* footer  , me toy volviendo loco pero va quedando flama XDXDXD */
+
+
+
+footer div.info-footer {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    width: 100%;
+    margin: 0;
+} 
+
+footer section {
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+footer i {
+    font-size: 2em;
+    color:#1259c3;
+    margin-bottom: 10px;
+    transition: color 500ms;
+}
+
+footer i:hover {
+    color:yellow;
+}
+
+footer h3 {
+    font-size: 16px;
+    font-weight: 700;
+    color:#666;
+    margin: 0;
+}
+
+footer p {
+    font-size: 16px;
+    color:#666;
+    width: 75%;
+    text-align: center;
+    margin: 0 0 50px 0;
+}
+
+#copyw {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: flex-start;
+}
+
+footer .copyw {
+    width: 90%;
+    font-size: var(--main-tipo-texto);
+    text-align: left;
+    margin: 0 0 20px 0;
+}
+
+/* footer */
+
+
+main {
+    text-align: center;
+    width: 90vw;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+ 
+ .lupa{
+    text-align: end;
+    margin-top: -13px;
+    position: relative;
+ }
+
+
+
+
+.icon{
+    width: 50px;
+    margin-bottom: 10px;
+    padding-top: 16px;
+    padding-left: 8px;
+    padding-right: 8px;
+    margin: 0 auto;
+
+    
+}
+
+
+
+
+
+
+
+ main section article div  i{
+    display: block;
+    font-size: 16px;
+    padding: 5px;
+    width: 30px;
+    height: 30px;
+    border: 1px solid #39b54a;
+    background-color: #FFF;
+    border-radius: 50%;
+    position: absolute;
+    right: 20px;
+    top: -15px;
+    
+}
+
+
+ .h3-centrado{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.buscador{
+    width: 50%;
+    padding: 5px;
+    display: flex;
+    align-items: center;
+}
+
+
+
+.precio{
+width:30%;
+    }
+    
+.descuento{
+width:70%;
+    }
+    
+
+
+.productos{
+box-sizing: border-box;
+}
+  
+.productos article img{
+    box-sizing:content-box;
+    width:70%;
+}
+
+/* formulario */
+main form.forms {
+    width: 100%;
+    max-width: 600px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 40px;
+    font-size: 16px;
+   
+}
+
+.mainclass{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    background-color: #e4e1e1;
+    padding-top: 50px;
+    text-align: center;
+    margin-top: 100px;
+}
+
+main form.forms div {
+    width: 70%; 
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: left; 
+    margin: 0 0 20px 0; 
+    border-radius: 10%;
+}
+
+main form.forms div label {
+    text-align: left;
+    font-weight: 700;
+    width: 100%;        
+}
+
+main form.forms div input {
+    padding: 8px 0;    
+    border: none;
+}
+
+main form.forms div .Texto {
+    box-shadow: 0 0 2px 2px rgba(100, 100, 100, .5);
+} 
+
+
+main form.forms div.form-fecha {
+    width: 60%;
+    align-self: flex-start;    
+}
+
+main form.forms div.form-fecha input {
+    box-shadow: 0 0 2px 2px rgba(100, 100, 100, .5);
+}
+
+
+
+
+main form.forms div.form-fecha label {
+    margin-bottom: 10px;
+    font-size: 14px;
+}
+
+main form.forms div.usr {
+    margin: 0;    
+}
+
+main form.forms div.usr h3, main form.forms div.intereses h3  {
+    width: 100%;
+    margin: 0 0 10px 0;
+    text-align: left;
+}
+
+main form.forms div.usr div.user{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+              
+}
+
+main form.forms div.usr div.user div {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+main .forms div.usr div.user div input {
+    width: 20px;
+    margin: 0;
+}
+
+main .forms div.usr div.user div label {
+    width: 60px;
+    font-weight: 400;
+    text-align: left;
+}
+
+main form.forms div.intereses div.opciones-intereses{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;           
+}
+
+main form.forms div.intereses div.opciones-intereses div {
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+
+}
+
+main form.forms div.intereses div.opciones-intereses div label {
+    width: 60px;
+    font-weight: 400;
+    text-align: left;
+}
+
+main form.forms div.intereses div.opciones-intereses div input {
+    width: 20px;
+    margin: 0;
+}
+
+main form.forms div.form-contrasenias {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+main form.forms div.botones {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+main form.forms div.botones .botones-form {
+    width: 35%;
+}
+
+main form.forms div.botones .boton-enviar {
+    background-color:#121dbc;
+    color:#a7a0a0;
+    transition: background-color 500ms;
+}
+
+main form.forms div.botones .botones-form:hover {
+    background-color: #0022AA;
+}
+
+main form.forms div.botones .boton-cancelar {
+    background-color: red;
+    color:#a7a0a0;
+}
+
+main form.forms div.form-log {
+    width: 70%;
+}
+
+main form.forms div.form-log div {
+    width: 100%;
+}
+
+
+/* formulario */
+
+main section article .articulo .info-article i{
+    color:#39b54a;
+
+    display: block;
+font-size: 16px;
+padding: 10px 5px 0px 5px;
+width: 30px;
+height: 30px;
+border:solid 1px green ;
+background-color: #FFF;
+border-radius: 50%;
+position: absolute;
+right: 20px;
+top:-20px;
+transition: all 1000ms;
+
+}
+
+main section article .articulo .info-article i:hover{
+    transform: rotate(-90deg);
+}
+
+main section article .articulo .info-article .desc-prod{
+    display: none;
+    visibility: hidden;
+    margin: 0;
+    padding: 10px 0;
+    color:#666;
+    font-size:16px ;
+}
+main section article .articulo:hover > .info-article .desc-prod{
+    display: block;
+    visibility: visible;
+}
+main section article .articulo .info-article .descuento{
+    margin: 0;
+    color: #39b54a;
+    font-size: 16px;
+    font-weight: 700;
+    width: 70%;
+    text-align: left;
+}
+main section article .articulo .info-article .precio{
+    margin: 0;
+    padding: 0;
+    width: 30%;
+    min-width: 80px;
+    font-size: 16px;
+    font-weight: 700;
+    text-align: left;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (min-width: 361px) {
+   
+    main section article {
+        width: 40%;
+    }
+    .productos {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    .desc-prod {
+        display: block;
+    }
+    main section .info-article:hover {
+        box-shadow: 0px 0px 10px rgb(100, 100, 100);
+       
+    }
+    header nav {
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+        justify-content: center;
+    }
+     
+    header .header-top{
+        width: 29%;
+    }
+
+    header .buscador{
+        width: 33%;
+        justify-content: space-around;
+    }
+    header .compra-cuotas{
+        width: 33%;
+        align-self: center;
+    }
+    header .buscador input{
+        width: 80%;
+        height: 25px;
+    }
+header .buscador .search i {
+    position: unset;
+    border: 1px solid #000000;
+    align-self: center;
+    padding: 2px;
+}
+
+main section .h3-centrado{
+    width: 90%;
+
+}
+
+
+
+
+
+}
+
+@media (min-width: 769px) {
+    main section article {
+        width: 22%;
+    }
+}
+
+    

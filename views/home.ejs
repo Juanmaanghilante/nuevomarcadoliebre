@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<%-include('./partials/head') %>
+
+    <body>
+
+        <%-include('./partials/header') %>
+
+
+            <section>
+
+                <img class="banner-img" src="/images/img-home-banner.jpg" alt="banner">
+
+
+                <main>
+                    <section>
+                        <h3 class="h3-centrado">basado en tu ultima visita</h3>
+                        <div class="productos">
+                            <% visitado.forEach((row)=> { %>
+                                <article>
+                                    <div class="articulo">
+                                        <img src="/images/img-cafetera-moulinex.jpg" alt="prod/cafetera">
+                                        <div class="info-article">
+
+                                            <i class="fas fa-truck"></i>
+
+                                            <p class="precio">$6.770</p>
+                                            <p class="descuento">40% off</p>
+                                            <h4 class="desc-prod">cafetera moulinex</h4>
+
+                                        </div>
+                                    </div>
+
+
+
+                                </article>
+                                <% }) %>
+                        </div>
+
+                    </section>
+
+
+
+
+
+
+
+                    <section>
+                        <h3 class="h3-centrado">ofertas</h3>
+                        <div class="productos">
+
+                        </div>
+
+
+                    </section>
+                </main>
+
+
+                <%-include('./partials/footer') %>
+
+    </body>
+
+
+
+</html>
