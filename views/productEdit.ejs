@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<%-include('./partials/head') %>
+
+<body >
+    <%-include('./partials/header') %> 
+
+
+
+    <main class="mainclass">
+
+        <form class="forms" action="/products/edit/<%=producto.id%>?_method=put" method="post"  class="registro" enctype="multipart/form-data">
+                <div>
+         <h4>nombre del producto</h4>
+                    <input class="Texto" type="text" name="name" placeholder="nombre productp"  id="nombreCompleto" value="<%= producto.name %>">
+                </div>
+                <div>
+         <h4>precio</h4>
+                    <input class="Texto" type="number" name="price" value="<%= producto.price %>" id="usuario" placeholder="precio">
+                </div>
+                <div>
+           <h4>descuento</h4>
+                    <input class="Texto" type="number" name="discount" value="<%= producto.discount %>" placeholder="descuento">
+                </div>
+                <div>
+               <h4>descripcion</h4>
+                            <textarea class="Texto"  placeholder="descripcion" name="description" value="<%= producto.description %>" ></textarea>
+                </div>
+                <div>
+           <h4>categoria</h4>
+                    <input class="Texto" type="text" name="category" value="<%= producto.category %>" >
+                </div>
+                              
+               
+                   
+                </div>
+                <div class="intereses">
+                    <h3>categoria</h3>
+                    <div class="opciones-intereses">
+                        <div>
+                            <input type="checkbox" name="intereses" value="electro" id="electro">
+                            <label for="electro">Electro</label>
+                        </div>
+                        <div>
+                            <input type="checkbox" name="intereses" value="moda" id="moda">
+                            <label for="moda">Moda</label>
+                        </div>
+                        <div>
+                            <input type="checkbox" name="intereses" value="hogar" id="hogar">
+                            <label for="hogar">Hogar</label>
+                        </div>
+                        <div>
+                            <input type="checkbox" name="intereses" value="jugueteria" id="jugueteria">
+                            <label for="jugueteria">Juguetería</label>
+                        </div>
+                        <div>
+                            <input type="checkbox" name="intereses" value="vidaSana" id="vidaSana">
+                            <label for="vidaSana">Vida Sana</label>
+                        </div>  
+                    </div>
+                    </div>
+ 
+                <div>
+                    <label for="fotoUsuario">Foto del producto</label>
+                    <input type="file" name="nuevaImagen"  id="fotoUsuario" >                
+                </div>
+               
+                </div>
+               
+                <div class="botones">                
+                    <button class="botones-form boton-enviar" type="submit">Editar</button><label class="botones-form boton-enviar" for="borrar">eliminar</label>
+                    
+                </div>
+               
+            </form>
+
+            <form  method="POST"  action="/products/edit/<%=producto.id%>?_method=DELETE"   >
+                <button id="borrar" hidden type="submit">eliminar</button> 
+                </form>
+
+
+
+                </main>
+    <%-include('./partials/footer') %>
+
+</body>
+
+       

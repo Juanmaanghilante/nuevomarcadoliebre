@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<%-include('./partials/head')  %>
+
+<body>
+    <%-include('./partials/header')  %>
+    <main class="mainclass">
+    
+
+       <h1><% usuario.name %></h1>
+<img src="../public/images"<% usuario.image %> alt="imagen"> <% usuario.name %>
+<a href="/editar/<% usuario.id %>">Editar</a>
+
+
+<form action="/eliminar/<% usuario.id %>method" method="post" >
+     <button></button>
+</form>
+    </main>
+    <%-include('./partials/footer')  %>
+
+</body>
+
+</html>

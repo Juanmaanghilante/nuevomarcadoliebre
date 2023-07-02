@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<%-include('./partials/head') %>
+<body>
+    <%-include('./partials/header') %>
+    <main class="mainclass">
+
+        <form class="forms" action="/products/create" method="post" class="registro" enctype="multipart/form-data">
+                <div>
+         
+                    <input class="Texto" type="text" name="name" placeholder="NOMBRE DEL PRODUCTO" id="nombreCompleto">
+                </div>
+                <div>
+         
+                    <input class="Texto" type="number" name="price" placeholder="precio del producto" id="usuario">
+                </div>
+                <div>
+           
+                    <input class="Texto" type="number" name="discount" placeholder="descuento">
+                </div>
+                <div>
+               
+                            <textarea class="Texto"  name="description" placeholder="describa su producto" ></textarea>
+                </div>
+                <div>
+           
+                    <input class="Texto" type="text" name="category" placeholder="categoria">
+                </div>
+                              
+               
+                   
+                </div>
+                <div class="intereses">
+                    <h3>categoria</h3>
+                    <div class="opciones-intereses">
+                        <div>
+                            <input type="checkbox" name="intereses" value="electro" id="electro">
+                            <label for="electro">Electro</label>
+                        </div>
+                        <div>
+                            <input type="checkbox" name="intereses" value="moda" id="moda">
+                            <label for="moda">Moda</label>
+                        </div>
+                        <div>
+                            <input type="checkbox" name="intereses" value="hogar" id="hogar">
+                            <label for="hogar">Hogar</label>
+                        </div>
+                        <div>
+                            <input type="checkbox" name="intereses" value="jugueteria" id="jugueteria">
+                            <label for="jugueteria">Juguetería</label>
+                        </div>
+                        <div>
+                            <input type="checkbox" name="intereses" value="vidaSana" id="vidaSana">
+                            <label for="vidaSana">Vida Sana</label>
+                        </div>  
+                    </div>
+                    </div>
+ 
+                <div>
+                    <label for="fotoUsuario">Foto del producto</label>
+                    <input type="file" name="fotoUsuario" accept=".jpg, .png" id="fotoUsuario" >                
+                </div>
+               
+                </div>
+                <div class="botones">                
+                    <button class="botones-form boton-enviar" type="submit">Enviar</button>
+                    <button class="botones-form boton-cancelar" type="reset">Cancelar</button>
+                </div>
+                
+    
+            </form>
+
+        
+    </main>
+    <%-include('./partials/footer') %>
+</body>

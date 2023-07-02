@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<%-include('./partials/head')  %>
+
+<body>
+    <%-include('./partials/header')  %>
+    <main class="mainclass">
+
+        <form class="forms" action="/user/editar/<%= usuarioEditar.id %>/?_method=put" method="post" class="registro">
+                <div>                                    
+         
+                    <input class="Texto" type="text" name="nombreCompleto" placeholder="Nombre y apellido" id="nombreCompleto" value="<%= usuarioEditar.name %>">
+                </div>
+                <div>
+         
+                    <input class="Texto" type="text" name="usuario" placeholder="Nombre de usuario" id="usuario" value="<%=usuarioEditar.username%>">
+                </div>
+                <div>
+           
+                    <input class="Texto" type="email" name="emailUsuario" placeholder="E-mail" value="<%=usuarioEditar.email%>">
+                </div>
+                <div>
+               
+                    <input class="Texto" type="texto"  name="domicilio" placeholder="Domicilio" id="domicilio" value="<%= usuarioEditar.domicilio %>">
+        </div>
+        <div>
+            <div class="form-fecha">
+                <label for="fechaNacimiento">Fecha de Nacimiento</label>
+                <input type="date" name="fechaNacimiento" id="fechaNacimiento" value="<%=usuarioEditar.fechaDeNacimiento %>">
+            </div>  
+            <div class="usr">
+                <h3>Perfil de usuario</h3>
+                <div class="user">
+                    <div>
+                        <input type="radio" name="perfilUsuario" value="comprador" id="comprador" value="<%=usuarioEditar.tipoDePerfil %>">
+                        <label for="comprador">Comprador</label>
+                    </div>
+                    <div>
+                        <input type="radio" name="perfilUsuario" value="vendedor" id="vendedor">
+                        <label for="vendedor">Vendedor</label>
+                    </div>
+                    <div class="botones">
+                        <label for="fotoUsuario">Foto de usuario</label>
+                        <input type="file" name="fotoUsuario"  id="fotoUsuario" value="<%= usuarioEditar.image %>">                
+                    </div>
+                    <div class="form-contrasenias">
+                      
+                    </div>
+                <div class="botones">                
+                    <button class="botones-form boton-enviar" type="submit">Editar usuarior</button>
+                    <button class="botones-form boton-cancelar" type="reset">Eliminar usuario</button>
+                </div>
+                
+    
+            </form>
+
+   
+
+
+
+    <%-include('./partials/footer')  %>
+</body>

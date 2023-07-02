@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<%-include('./partials/head') %>
+
+    <body>
+
+
+
+        <%-include('./partials/header') %>
+            <main >
+
+                <h1>
+                    <%= producto.name %>
+
+                </h1>
+                <div class="mainDetalleproducto"> 
+                <div class="precio-c-d-img">
+
+
+                    <img src="/images/<%=producto.image %>" alt="holap utooo">
+                </div>
+
+
+                <div class="precio-descuento">
+                    <p>
+                        <%= producto.category %>
+                    </p>
+                    <h2>
+                        $<%= producto.price %>
+
+                    </h2>
+                    <h3>
+                        descuento del %<%= producto.discount %>
+                    </h3>
+
+                    <p>
+                        <%= producto.description %>
+                    </p>
+                </div>
+            </div>
+            </main>
+
+
+
+
+
+
+
+
+
+
+            <%-include('./partials/footer') %>
+    </body>
+
+</html>

@@ -1,16 +1,53 @@
 [
-    {
-        "id":1,
-        "name":"pedrito",
-        "username":"nombreusuario",
-        "fechaDeNacimiento":"16/10/2000",
-        "email":"curne_juan@hotmail.com",
-        "domicilio":"calle falsa 123",
-        "tipoDePerfil":"vendedor",
-        "intereses":"on",
-        "image":"default-image.png",
-        "password":"1234"
-
-
-    }
+  {
+    "id": 1,
+    "name": "juan martin editando",
+    "domicilio": "calle falsa 123",
+    "image": "default-image.png"
+  },
+  {
+    "id": 2,
+    "name": "roberto cima",
+    "username": "robertiotuturro",
+    "fechaDeNacimiento": "2023-06-30",
+    "email": "robertoempresarial@gmial.robert",
+    "domicilio": "villa lucuriaga",
+    "tipoDePerfil": "comprador",
+    "intereses": "electro",
+    "image": ""
+  },
+  {
+    "id": 3,
+    "name": "cacaaaaaaaaaaaaaa",
+    "domicilio": "caca",
+    "image": ""
+  },
+  {
+    "id": 4,
+    "name": "lucas mieres",
+    "domicilio": "villa lucuriaga",
+    "image": ""
+  },
+  {
+    "id": 5,
+    "intereses": "electro",
+    "image": "Captura de pantalla (133).png"
+  },
+  {
+    "id": 6,
+    "name": "juan martin",
+    "username": "eljuanmaaaaa",
+    "email": "juanmaaa@juanmaaaa.com",
+    "domicilio": "asddd 22",
+    "fechaDeNacimiento": "2023-08-05",
+    "tipoDePerfil": "vendedor"
+  },
+  {
+    "id": 7,
+    "name": "geronimo  reynoso",
+    "domicilio": "alto palermo",
+    "image": "",
+    "username": "trancaaaa",
+    "email": "sdada@hotmail"
+  }
 ]

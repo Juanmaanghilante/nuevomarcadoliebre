@@ -17,7 +17,8 @@
                     <section>
                         <h3 class="h3-centrado">basado en tu ultima visita</h3>
                         <div class="productos">
-                            <% visitado.forEach((row)=> { %>
+                          
+                                <% products.filter((row) => row.category === 'visited').forEach((row) => { %>
                                 <article>
                                     <div class="articulo">
                                         <img src="/images/<%= row.image  %>" alt="<%= row.image  %>">
@@ -49,7 +50,7 @@
                     <section>
                         <h3 class="h3-centrado">ofertas</h3>
                         <div class="productos">
-                            <% oferta.forEach((row)=> { %>
+                            <% products.filter((row) => row.category === 'in-sale').forEach((row) => { %>
                                 <article>
                                     <div class="articulo">
                                         <img src="/images/<%= row.image  %>" alt="<%= row.image  %>">

@@ -6,15 +6,19 @@ const datos= JSON.parse(fs.readFileSync(path.resolve(__dirname,'../database/prod
 
 const mainController={
    
-//    ruta al  home
+//   controlador que renderiza el
     index: (req,res) =>{
 
-const visitado= datos.filter((row) =>row.category=='visited')
-const oferta= datos.filter((row) =>row.category=='in-sale')
-        return res.render ("home",{visitado:visitado,oferta:oferta})
 
+        const visitado= datos.filter((row) =>row.category=='visited')
+       
+        const oferta= datos.filter((row) =>row.category=='in-sale')
+       
+        return res.render ("home",{products:datos})
+       
  }
  ,
+
 
 
 

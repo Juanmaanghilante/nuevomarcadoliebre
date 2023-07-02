@@ -10,6 +10,18 @@ router.get("/registrarse",userController.registrarse)
 router.post("/registrar",userController.processRegister)
 
 
+// ruta para ver el formulario de edicion del usuario
+router.get('/editar/:id',userController.editar)
+// rutas tipo put actualizan informacion
+router.put('/editar/:id',userController.procesoEditar)
+
+// ruta para ver el perfil
+router.get('/perfil/:id',userController.perfil)
+
+
+// ruta para eliminar
+router.delete('/eliminar/:id',userController.eliminar)
+
 
 
 

@@ -14,135 +14,14 @@ body{
    
    /* header */
 }
-header{
-    background-color: #EAC926;
-    width: 50%;
+
+.top-header{
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
 }
 
 
-.burger-menu-juanma  i {
-    display: none;
-    color: white;
-    background-color: #0022AA;
-    padding: 10px;
-    font-size: 2rem;
-display: none;
-}
-    
-.login{
-    list-style-type: disc;
-    margin-block-start: 1em;
-    margin-block-end: 1em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
-    padding-inline-start: 40px;
-    font-family:Arial, Helvetica, sans-serif;
-}
-
-    .header-top{
   
- width: 50%;
-}
-
-.input{
-    justify-content: space-between;
-}
-.logo{
-width:90%;
-padding:15px 0 15px 5%; 
-}
-
-  header .buscador {
-    width:50%;
-    position: relative;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-} 
-
- .buscador1{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-radius: 20px;
-}
-input[type="text"]{
-width: 300px;
-height: 25px;
-margin-right: 0.5px;
-}
-
-input[type="password"]{
-    width: 300px;
-    height: 25px;
-    margin-right: 0.5px;
-    }
-
-button[type="submit"]{
-    width: 20px;
-    height: 25px;
-    margin-left: 0.5px;
-}
-
-
-
-
-header p{
-text-align: center;
-}
-header nav{
-display:none;
-}
-header nav ul li a {
-     font-size: 14px;
-    text-decoration: none;
-    color: black;
-
-
-}
-
-header nav ul li  {
-    list-style-type: none;
-    display: block;
- 
-}
-
-
-
-
-header nav ul {
- width: 45%;
- margin: 0;
-padding: 0;
-display: flex;
-justify-content: space-around;
-min-width: 30%;
-}
-
-
-header{
-    width: 100vw;
-}
-
-
-
-
-header .compra-cuotas{
-    width: 100%;
-    font-size:12px ;
-    font-weight: 700;
-    text-align: center;
-    color: #666;
-}
-
-
-header{
-    width:100vw;
-}
-
 
 
                                                     /* header */
@@ -422,7 +301,7 @@ main form.forms div {
 main form.forms div label {
     text-align: left;
     font-weight: 700;
-    width: 100%;        
+    
 }
 
 main form.forms div input {
@@ -524,21 +403,20 @@ main form.forms div.botones {
     justify-content: space-around;
 }
 
-main form.forms div.botones .botones-form {
-    width: 35%;
-}
 
-main form.forms div.botones .boton-enviar {
+
+ .boton-enviar {
     background-color:#121dbc;
     color:#a7a0a0;
     transition: background-color 500ms;
+    width: 100px;
 }
 
-main form.forms div.botones .botones-form:hover {
+ .botones-form:hover {
     background-color: #0022AA;
 }
 
-main form.forms div.botones .boton-cancelar {
+.botones .boton-cancelar {
     background-color: red;
     color:#a7a0a0;
 }
@@ -605,8 +483,31 @@ main section article .articulo .info-article .precio{
     font-weight: 700;
     text-align: left;
 }
+/* css del detalle del producto */
+.precio-descuento{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin: 10px;
+    font-size: 20px;
+}
+.precio-descuento p{
+font-size: 20px;
+}
+.precio-c-d-img{
+
+border: solid rgb(126, 118, 118);
+width: 100%;
+padding: 20px;
 
 
+}
+.precio-c-d-img img{
+    width: 100%;
+
+}
 
 
 
@@ -636,36 +537,7 @@ main section article .articulo .info-article .precio{
         box-shadow: 0px 0px 10px rgb(100, 100, 100);
        
     }
-    header nav {
-        display: flex;
-        justify-content: space-between;
-        width: 100%;
-        justify-content: center;
-    }
-     
-    header .header-top{
-        width: 29%;
-    }
-
-    header .buscador{
-        width: 33%;
-        justify-content: space-around;
-    }
-    header .compra-cuotas{
-        width: 33%;
-        align-self: center;
-    }
-    header .buscador input{
-        width: 80%;
-        height: 25px;
-    }
-header .buscador .search i {
-    position: unset;
-    border: 1px solid #000000;
-    align-self: center;
-    padding: 2px;
-}
-
+   
 main section .h3-centrado{
     width: 90%;
 
@@ -681,6 +553,14 @@ main section .h3-centrado{
     main section article {
         width: 22%;
     }
+
+ .mainDetalleproducto{
+    display: flex;
+ 
+}
+.mainDetalleproducto div {
+    width: 50%;
+}
 }
 
     
