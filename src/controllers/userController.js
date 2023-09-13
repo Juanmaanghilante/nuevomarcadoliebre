@@ -67,6 +67,7 @@ perfil:(req,res)=>{
 eliminar:(req,res)=>{
 
   
+  
 
 },
 

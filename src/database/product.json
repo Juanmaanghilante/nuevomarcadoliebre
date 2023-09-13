@@ -198,5 +198,32 @@
     "description": "",
     "image": "1688158927694img-macbook-pro-2019.jpg",
     "borrado": false
+  },
+  {
+    "id": 21,
+    "name": "juan",
+    "price": "5252",
+    "discount": "11",
+    "category": "autos",
+    "description": "sdasdasdas",
+    "image": "1694607953779d19e8fe207a81348ffe8fcf4c48cb6b9.jpg"
+  },
+  {
+    "id": 22,
+    "name": "ferrari testarrosa",
+    "price": "0",
+    "discount": "00",
+    "category": "0",
+    "description": "0000",
+    "image": "1694607990610bambino.jpg"
+  },
+  {
+    "id": 23,
+    "name": "juanma",
+    "price": "415255",
+    "discount": ".00",
+    "category": "in-sale",
+    "description": "un cpao\r\n",
+    "image": "1694608067094bambino.jpg"
   }
 ]

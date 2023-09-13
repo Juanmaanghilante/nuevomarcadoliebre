@@ -14,11 +14,64 @@ body{
    
    /* header */
 }
+            
 
+header{
+    background-color: #eac926;
+    width: 100vw;
+}
 .top-header{
     display: flex;
     flex-wrap: wrap;
+   
+
+
 }
+.top-header a,form{
+    width: 50%;
+}
+
+nav{
+    display: none;
+   
+
+}
+.burguer-menu-juanma{
+    text-align: center;
+}
+.burguer-menu-juanma i{
+    color: white;
+    background-color: #121dbc;
+    font-size: 20px;
+    padding: 8px;
+margin: 10px 0px 20px 0px;
+border-radius: 5px;
+
+
+}
+.lupa{
+    position: relative;
+    left: -20px;
+   border: none;
+   margin: 0;
+   padding: 0;
+background-color: rgba(1, 1,1, 0);
+ 
+
+}
+.buscador1{
+    display: flex;
+    padding: 5px;
+   
+}
+.buscador1 input{
+    width: 100%;
+
+}
+.logo{
+    padding: 10px;
+}
+
 
 
   
@@ -187,12 +240,7 @@ main {
     margin-right: auto;
 }
 
- 
- .lupa{
-    text-align: end;
-    margin-top: -13px;
-    position: relative;
- }
+
 
 
 
@@ -560,6 +608,32 @@ main section .h3-centrado{
 }
 .mainDetalleproducto div {
     width: 50%;
+}
+.top-header a,form,p{
+    width: 30%;
+}
+.top-header {
+    align-items: center;
+    justify-content: center;
+}
+.burguer-menu-juanma{
+    display: none;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 10px;
+}
+.navegacion{
+    display: flex;
+    justify-content:space-evenly ;
+    width: 45%;
+    
+}
+.navegacion li a{
+    list-style-type: none;
+    text-decoration: none;
+    color: black;
 }
 }
 
